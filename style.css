@@ -2,6 +2,7 @@
     --first-color:#f3f3f3;
     --second-color:#310D0D;
     --colorBackground1: #180E0E;
+    --buttonColor: #745E5D;
     --colorText: #ffff;
 }
 
@@ -62,7 +63,7 @@ nav{
 }
 
 a:hover{
-    color: rgb(255, 172, 172);
+    color: gray;
     transition: ease-in all 0.2s;
 }
 
@@ -160,6 +161,28 @@ header{
 .capa:hover{
     position: absolute;
     opacity: 2;
+}
+
+.productActions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartAction{
+    border: solid rgba(255, 255, 255, 0) 1px;
+    background-color: var(--buttonColor);
+    margin: 20px;
+    height: 5vh;
+    width: 30vh;
+    cursor: pointer;
+}
+
+.cartAction:hover{
+    border: solid white 1px;
+    background-color: rgba(116, 94, 93, 0.8);
+    transition: ease-in all 0.3s;
 }
 
 /* Comienzo seccion de clientes */
