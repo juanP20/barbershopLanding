@@ -20,7 +20,7 @@ h1{
 }
 
 h2{
-    font-size: 50px;
+    font-size: 5vh;
     padding: 5vh;
 }
 
@@ -33,11 +33,13 @@ p{
     font-size: 30px;
 }
 a{
-    font-size: 20px;
+    font-size: 2vh;
     text-decoration: none;
     color: var(--colorText);
     margin: 0 50px;
 }
+
+/* Comienzo sección barra de navegación */
 
 nav{
     width: 100%;
@@ -67,18 +69,38 @@ a:hover{
     transition: ease-in all 0.2s;
 }
 
+/* Comienzo seccion encabezado */
+
 header{
     background-color: var(--colorBackground1);
+    color: var(--colorText);
     height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainTittle{
+    padding-top: 2vh;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.slogan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Comienzo sección de servicios */
 
 .SERVICES{
     height: 75vh;
     background-color: var(--colorText);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .servicesHeader{
@@ -113,6 +135,9 @@ header{
     background-color: var(--colorBackground1);
     width: 100%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container{
@@ -210,4 +235,44 @@ header{
 .clientImg{
     height: 50vh;
     padding: 0 20px;
+}
+
+.BARBERS{
+    background-color: var(--colorBackground1);
+    height: 100vh;
+    color: var(--colorText);
+}
+
+.barbersTittle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barbersContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.barber{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+}
+
+.barberDescription{
+    font-size: 2.5vh;
+    margin: 2vh auto;
+    color: rgb(187, 187, 187);
+}
+
+.barberName{
+    margin: 2vh auto;
+    color: var(--buttonColor);
+}
+
+.barberImg{
+    width: 30vh;
+    margin: auto;
 }
