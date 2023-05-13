@@ -6,6 +6,10 @@
     --colorText: #ffff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -33,7 +37,7 @@ p{
     font-size: 30px;
 }
 a{
-    font-size: 2vh;
+    font-size: 2.1vh;
     letter-spacing: 0.3vh;
     text-decoration: none;
     color: var(--colorText);
@@ -53,14 +57,14 @@ nav{
 }
 
 .navContent{
-    width: 70%;
+    width: 75%;
     display: flex;
     justify-content: space-around;
-    border-right: solid var(--colorText) 2px;
+    border-right: solid var(--colorText) 0.2vh;
 }
 
 .login{
-    width: 30%;
+    width: 35%;
     display: flex;
     justify-content: flex-end;
 }
@@ -196,7 +200,7 @@ header::before {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     opacity:0 ;
-    transition: 0.8s ease;
+    transition: 0.5s ease;
     color: var(--first-color);
     text-align: center;
 }
@@ -225,7 +229,7 @@ header::before {
 .cartAction:hover{
     border: solid white 1px;
     background-color: rgba(116, 94, 93, 0.8);
-    transition: ease-in all 0.3s;
+    transition: ease-in all 0.2s;
 }
 
 /* Comienzo seccion de clientes */
@@ -233,7 +237,10 @@ header::before {
 .CLIENTS{
     background-color: var(--first-color);
     width: 100%;
-    height: 75vh;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .clientsTittle{
@@ -245,13 +252,13 @@ header::before {
  
 .clientsGallery{
     display: flex;
-    max-width: 60%;
+    max-width: 70%;
     margin: 0 auto;
     overflow-x: auto;
 }
 
 .clientImg{
-    height: 50vh;
+    height: 55vh;
     padding: 0 20px;
 }
 
@@ -259,6 +266,9 @@ header::before {
     background-color: var(--colorBackground1);
     height: 100vh;
     color: var(--colorText);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .barbersTittle{
@@ -276,13 +286,14 @@ header::before {
 .barber{
     display: flex;
     flex-direction: column;
-    flex-basis: 30%;
+    flex-basis: 20%;
 }
 
 .barberDescription{
     font-size: 2.5vh;
     margin: 2vh auto;
     color: rgb(187, 187, 187);
+    text-align: center;
 }
 
 .barberName{
@@ -291,6 +302,6 @@ header::before {
 }
 
 .barberImg{
-    width: 30vh;
+    width: 100%;
     margin: auto;
 }
