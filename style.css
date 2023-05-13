@@ -41,7 +41,6 @@ a{
     letter-spacing: 0.3vh;
     text-decoration: none;
     color: var(--colorText);
-    margin: 0 50px;
 }
 
 /* Comienzo sección barra de navegación */
@@ -57,16 +56,10 @@ nav{
 }
 
 .navContent{
-    width: 75%;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     border-right: solid var(--colorText) 0.2vh;
-}
-
-.login{
-    width: 35%;
-    display: flex;
-    justify-content: flex-end;
 }
 
 a:hover{
@@ -138,7 +131,7 @@ header::before {
 }
 
 .serviceImg{
-    height: 60vh;
+    width: 50vh;
 }
 
 .service{
