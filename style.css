@@ -34,6 +34,7 @@ p{
 }
 a{
     font-size: 2vh;
+    letter-spacing: 0.3vh;
     text-decoration: none;
     color: var(--colorText);
     margin: 0 50px;
@@ -113,7 +114,7 @@ header::before {
 /* Comienzo sección de servicios */
 
 .SERVICES{
-    height: 75vh;
+    height: 90vh;
     background-color: var(--colorText);
     display: flex;
     flex-direction: column;
@@ -133,7 +134,7 @@ header::before {
 }
 
 .serviceImg{
-    height: 400px;
+    height: 60vh;
 }
 
 .service{
