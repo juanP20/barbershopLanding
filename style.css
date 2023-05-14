@@ -416,9 +416,10 @@ header::before {
 }
 
 .contactContent{
+    width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .map{
@@ -429,6 +430,24 @@ header::before {
 .contactData{
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.dataRow{
+    display: flex;
     align-items: center;
     justify-content: center;
+    margin: 3vh 0;
+}
+
+.dataLogo{
+    width: 7vh;
+    margin: 0 3vh;
+}
+
+.dataDescription{
+    font-size: 4vh;
+    letter-spacing: 0.5vh;
+    font-weight: bold;
 }
