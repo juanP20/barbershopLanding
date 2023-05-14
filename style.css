@@ -1,6 +1,6 @@
 :root{
     --first-color:#f3f3f3;
-    --second-color:#310D0D;
+    --secondColor:rgb(7, 7, 7);
     --colorBackground1: #180E0E;
     --buttonColor: #745E5D;
     --colorText: #ffff;
@@ -36,23 +36,17 @@ h3{
 p{
     font-size: 3vh;
 }
-a{
-    font-size: 2.1vh;
-    letter-spacing: 0.3vh;
-    text-decoration: none;
-    color: var(--colorText);
-}
 
 /* Comienzo sección barra de navegación */
 
 nav{
     width: 100%;
-    background-color: var(--colorBackground1);
+    background-color: var(--secondColor) ;
     display: flex;
     align-items: center;
     height: 6vh;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 .navContent{
@@ -62,7 +56,14 @@ nav{
     border-right: solid var(--colorText) 0.2vh;
 }
 
-a:hover{
+.navLink{
+    font-size: 2.1vh;
+    letter-spacing: 0.3vh;
+    text-decoration: none;
+    color: var(--colorText);
+}
+
+.navLink:hover{
     color: gray;
     transition: ease-in all 0.2s;
 }
@@ -70,8 +71,11 @@ a:hover{
 /* Comienzo seccion encabezado */
 
 header{
-    background-image: url("./img/banner.jpeg") ;
+    background-image: url("./img/banner.jpg") ;
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
     position: relative;
 
     color: var(--colorText);
@@ -84,12 +88,12 @@ header{
 
 header::before {
     content: "";
-    position: absolute; /* Aquí establecemos la posición absoluta en el elemento padre */
+    position: absolute; 
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* Aquí establecemos el color de fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.4); 
     z-index: -1;
 }
 
@@ -146,12 +150,31 @@ header::before {
 }
 
 .PRODUCTS{
+    background-image: url("./img/banner.jpg") ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    position: relative;
+
     background-color: var(--colorBackground1);
     width: 100%;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    z-index: 1;
+}
+
+.PRODUCTS::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: -1;
 }
 
 .container{
@@ -195,6 +218,10 @@ header::before {
     transition: 0.5s ease;
     color: var(--first-color);
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .capa:hover{
@@ -209,19 +236,30 @@ header::before {
     justify-content: center;
 }
 
-.cartAction{
-    border: solid rgba(255, 255, 255, 0) 0.2vh;
-    background-color: var(--buttonColor);
+.cartLink{
+    background-color: var(--colorText);
+    border: solid white 0;
+
+    font-size: 2vh;
+    font-weight: 600;
+    color: var(--secondColor);
     margin: 3vh;
     height: 5vh;
     width: 30vh;
-    cursor: pointer;
+    border-radius: 1vh;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.cartAction:hover{
-    border: solid white 0.2vh;
-    background-color: rgba(116, 94, 93, 0.8);
+
+.cartLink:hover{
+    border: solid var(--colorText) 0.2vh;
+    background-color: transparent;
     transition: ease-in all 0.2s;
+    color: var(--colorText);
 }
 
 /* Comienzo seccion de clientes */
