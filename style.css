@@ -272,6 +272,11 @@ header::before {
     color: var(--colorText);
 }
 
+.cartIcon{
+    height: 5vh;
+    width: 5vh;
+}
+
 /* Comienzo seccion de clientes */
 
 .CLIENTS{
@@ -290,10 +295,16 @@ header::before {
     align-items: center;
 }
  
+.carrousel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .clientsGallery{
     display: flex;
+    justify-content: center;
     max-width: 70%;
-    margin: 0 auto;
     overflow-x: auto;
 }
 
@@ -302,7 +313,15 @@ header::before {
     padding: 0 3vh;
 }
 
+.arrowIcon{
+    width: 15vh;
+    height: 15vh;
+}
+
+/* Inicio seccion de barberos */
+
 .BARBERS{
+    position: relative;
     height: 100vh;
     background-image: url("./img/banner.jpg") ;
     background-position: center;
@@ -315,18 +334,17 @@ header::before {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    z-index: 1;
+    z-index: -1;
 }
 
 .BARBERS::before {
     content: "";
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6); 
-    z-index: -1;
+    z-index: -2;
 }
 .barbersTittle{
     display: flex;
