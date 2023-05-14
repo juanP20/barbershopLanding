@@ -8,6 +8,17 @@
     --colorTextPrimary : white;
     --colorTextSecondary: rgb(206, 206, 206);
 }
+
+body {
+    opacity: 0;
+    animation: fadeIn ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0.6;}
+    100% {opacity: 1;}
+}
+
 h2{
     color: var(--colorTextPrimary);
     text-align: center;
@@ -30,8 +41,8 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 35%;
-    height: 90vh;
+    width: 40%;
+    height: 70vh;
     background-color: transparent;
     border: 0.3vh solid var(--colorTextSecondary);
     border-radius: 4vh;
@@ -106,20 +117,11 @@ button:hover{
     transition: ease-in all 0.4s;
 }
 
-.register{
-    width: 80%;
-    margin-top: 1vh;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
 
 .register{
     display: flex;
-    margin-top: 3vh;
-    justify-content: end;
-
+    margin-top: 10vh;
+    justify-content: center;
 }
 
 .register a{

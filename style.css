@@ -17,6 +17,16 @@ html {
     font-family: 'Playfair Display', serif;
 }
 
+body {
+    opacity: 0;
+    animation: fadeIn ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0.6;}
+    100% {opacity: 1;}
+}
+
 h1{
     color: var(--colorText);
     font-size: 10vh;
@@ -333,24 +343,57 @@ header::before {
 .barber{
     display: flex;
     flex-direction: column;
-    flex-basis: 20%;
+    flex-basis: 30%;
+}
+
+.barberName{
+    margin: 2vh auto;
+    color: rgb(216, 216, 216);
+}
+
+.barberImg{
+    width: 40%;
+    margin: auto;
 }
 
 .barberDescription{
     font-size: 2.5vh;
     margin: 2vh auto;
-    color: rgb(187, 187, 187);
+    color: gb(216, 216, 216);
     text-align: center;
 }
 
-.barberName{
-    margin: 2vh auto;
-    color: rgb(187, 187, 187);
+.barberActions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.barberImg{
-    width: 100%;
-    margin: auto;
+.agendarCita{
+    background-color: var(--colorText);
+    border: solid var(--colorText) 0;
+
+    font-size: 2vh;
+    font-weight: 600;
+    color: var(--secondColor);
+    margin: 3vh;
+    height: 5vh;
+    width: 30vh;
+    border-radius: 1vh;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.agendarCita:hover{
+    border: solid var(--colorText) 0.2vh;
+    background-color: transparent;
+    transition: ease-in all 0.2s;
+    color: var(--colorText);
 }
 
 /* Inicio seccion de contacto  */
