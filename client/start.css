@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/register/imgback.jpg);
+    background-position: center;
+    background-size: cover;   
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 35%;
+    height: 70vh;
+    background-color: transparent;
+    border: 2px solid rgb(255,255,255,0.5);
+    border-radius: 4vh;
+    backdrop-filter: blur(2px);
+}
+.inputs{
+    position: relative;
+    margin:26px 0;
+    width: 300px;
+    margin-left: 16px;
+    border-bottom: 2px solid white;
+}
+
+.inputs label{
+    position: absolute;
+    top: 30%;
+    left:4%;
+    transform: translateY(-40%);
+    color:white;
+    font-size:18px;
+    pointer-events: none;
+    transition: 1s;
+}
+
+input:focus ~ label,
+input:valid ~ label{
+    top: -2vh;
+}
+.inputs input{
+    width: 100%;
+    height:4vh;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    border: none;
+    font-size:19px;
+    padding: 0 35 0 5px;
+    color: white;
+}
+.icons{
+    position: absolute;
+    width: 5%;
+    left: 14%;
+    top: 39%;
+}
+.icons2{
+    position: absolute;
+    width: 5%;
+    left: 14%;
+    top: 52%;
+}
+button{
+    background-color: #745E5D;
+    color: white;
+    width: 100%;
+    height: 7vh;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+button:hover{
+    border: solid white 1px;
+    background-color: rgba(116, 94, 93, 0.8);
+    transition: ease-in all 0.2s;
+}
+.register{
+    width: 80%;
+    margin-top: 4vh;
+    position: absolute;
+    display: flex;
+    flex-direction:column-reverse;
+}
+.register a{
+    display: flex;
+    margin-top: 2vh;
+    justify-content: end;
+    text-decoration: none;
+    color: white;
+    transition: 1s;
+}
+.register a:hover{
+    text-decoration:underline;
+    color: #745E5D;
+}   
