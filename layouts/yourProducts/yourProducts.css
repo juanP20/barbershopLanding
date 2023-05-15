@@ -1,0 +1,47 @@
+body{
+    background-color: #180E0E;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    font-size: 300%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.caja-verde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+img{
+    width: 20%; 
+    height: 20%;
+    margin: 2%;
+}
+ 
+.caja-roja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-amarilla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background-color: #583E3D;
+   align-items: center;
+   margin: 7%;
+   margin-top: 5%;
+   width: 20%;
+   height: 190%;
+   font-size: 160%;
+
+}
