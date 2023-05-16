@@ -130,6 +130,7 @@ header::before {
 
 .options a{
     color: var(--buttonColor);
+    font-size: 1.7vh;
 }
 
 .mainTittle{
