@@ -7,6 +7,10 @@
 }
 
 body{
+    background-image: url(/img/barberTools.jpg);
+    background-size: cover;
+    background-position: center;
+
     background-color: rgb(29, 29, 29);
     position: relative;
     opacity: 0;
@@ -51,7 +55,7 @@ h1{
 
 .container{
     width: 60%;
-    background-color: rgba(80, 77, 77, 0.685);
+    background-color: rgba(54, 54, 54, 0.685);
     color: white;
     border-radius: 4vh;
     transition: 0.5s;
