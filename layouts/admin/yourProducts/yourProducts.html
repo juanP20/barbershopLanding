@@ -5,37 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./yourProducts.css">
-    <title>Products</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500;1,900&display=swap" rel="stylesheet">
+    <title>TopNotch Barbershop</title>
 </head>
 <body>
-    <header>
-        <a href="">   
-            <svg xmlns="http://www.w3.org/2000/svg"  class="icon" width="100" height="100" viewBox="0 0 24 24" stroke-width="2.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2" />
-                <path d="M9 12h12l-3 -3" />
-                <path d="M18 15l3 -3" />
-            </svg>
-        </a>
-        </header>
-    <h1>TUS PRODUCTOS</h1>
-    
-    <main>
-        <section class="caja-verde">
-            <img class="Sham" src="./img/Shampoo.jpg" alt="">
-            <img class="wax" src="./img/wax.jpg" alt="">
-            <img class="mino" src="./img/minoxidil.jpg" alt="">
-        </section>
-        <section class="caja-roja">
-            <img class="cond" src="./img/conditioner.jpg" alt="">
-            <img class="crem" src="./img/cream.jpg" alt="">
-            <img class="loti" src="./img/Lotion.jpg" alt="">
-        </section>
-    </main>
 
-<footer class="caja-amarilla">
-    <input type="button" value="Modificar">
-    <input type="button" value="Eliminar">
-</footer>
+    <section class="PRODUCTS" >
+
+        <a href="/layouts/admin/adminOptions/adminOpt.html">    
+            <svg class="backIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M10 8v-2a2 2 0 0 1 2 -2h7a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-7a2 2 0 0 1 -2 -2v-2" />
+                <path d="M15 12h-12l3 -3" />
+                <path d="M6 15l-3 -3" />
+              </svg>
+        </a>
+
+        <section class="productTittle">
+            <h2>TUS PRODUCTOS</h2>
+        </section>
+        <section class="container">
+            <section class="box">
+                <img class="imgProduct" src="/img/productos/shampo.webp" alt="">
+                <section class="capa">
+                    <h3>Shampoo</h3>
+                    <p> $ 20.000</p>
+                </section>
+            </section>
+            <section class="box">
+                <img class="imgProduct" src="/img/productos/crema.jpg" alt="">
+                <section class="capa">
+                    <h3>Crema de Peinar</h3>
+                    <p>$ 10.000</p>
+                </section>
+            </section>
+            <section class="box">
+                <img class="imgProduct" src="/img/productos/minoxidil.jpg" alt="">
+                <section class="capa">
+                    <h3>Minoxidil</h3>
+                    <p>$ 50.000</p>
+                </section>
+            </section>
+        </section> 
+        <section class="container">
+            <section class="box">
+                <img class="imgProduct" src="/img/productos/acondicionador men.webp" alt="">
+                <section class="capa">
+                    <h3>Acondicionador</h3>
+                    <p> $ 15.000</p>
+                </section>
+            </section>
+            <section class="box">
+                <img class="imgProduct" src="/img/productos/gel.jpg" alt="">
+                <section class="capa">
+                    <h3>Gel</h3>
+                    <p>$ 9.000</p>
+                </section>
+            </section>
+            <section class="box">
+                <img class="imgProduct" src="/img/productos/LociónCapilar.png" alt="">
+                <section class="capa">
+                    <h3>Locion Capilar</h3>
+                    <p>$ 25.000</p>
+                </section>
+            </section>
+        </section>
+        <section class="productActions">
+            <a href="" class="action">Modificar</a>
+
+            <a href="" class="action">Eliminar</a>
+        </section>
+    </section>
+
 </body>
 </html>
