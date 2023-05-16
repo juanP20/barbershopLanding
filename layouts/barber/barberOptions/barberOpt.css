@@ -32,7 +32,7 @@ body{
 }
 
 .container{
-    height: 60vh;
+    height: 50vh;
     width: 70vh;
     background-color: rgba(0, 0, 0, 0.6); 
     border-radius: 10vh;
@@ -71,6 +71,8 @@ header{
 h1{
     color: rgb(255, 255, 255);
     font-size: 3vh;
+    text-align: center;
+    letter-spacing: 0.3vh;
 }
 
 .option{
