@@ -1,0 +1,95 @@
+*{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0.6;}
+    100% {opacity: 1;}
+}
+
+h2{
+    font-size: 7vh;
+    text-align: center;
+    letter-spacing: 0.3vh;
+}
+
+h3{
+    font-size: 4vh;
+    text-align: center;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    position: relative;
+
+    opacity: 0;
+    animation: fadeIn ease-in-out 0.5s forwards;
+}
+
+.backIcon{
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    width: 5vh;
+    height: 5vh;
+}
+
+.payMethods{
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img{
+    height: 20vh;
+    margin: 0 5vh;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buyButton{ /* este es el home  boton  izquierdo inferior*/
+    width: 30vh;
+    height: 7vh;
+    margin-bottom: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 31, 31);
+    border-radius: 10vh;
+}
+
+.buyButton:hover{
+    background-color: rgb(0, 0, 0);
+    transition: ease-in-out 0.3s;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 3vh;
+}
+
