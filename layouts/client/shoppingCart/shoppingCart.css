@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(29, 29, 29);
+    position: relative;
+}
+
+img{ /* todas las imagenes deberian de quedar con ese tamaño*/
+    width: 26vh;
+    border-radius: 6vh;
+    padding: 2vh;
+}
+
+h1{
+    font-size: 8vh;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 5vh;
+  
+}
+
+.homeIcon{
+    width: 4vh;
+    height: 4vh;
+    cursor: pointer;
+
+    position: fixed;
+    top: 1%;
+    left: 0.5%;
+}
+
+
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10vh;
+    
+}
+.container{
+    width: 60%;
+    background-color: rgba(80, 77, 77, 0.685);
+    color: white;
+    border-radius: 4vh;
+    transition: 1s;
+}
+.container:hover{
+    width: 65%;
+    /* background-color: rgba(19, 16, 16, 0.856); */
+    background-color: white;
+    color: black;
+}
+
+.description{
+    font-size: 2vh;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2vh;
+}
+
+.price{ 
+    width: 15%;
+    text-align: center;
+    padding: 1vh;
+}
+
+.paragraph{
+    width: 60vh;
+}
+
+.info{  /* es el que deja que la imagen quede al lado del parrafo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyButton{ /* este es el home  boton  izquierdo inferior*/
+    width: 10%;
+    height: 5vh;
+    margin-bottom: 5vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(151, 151, 151);
+    border-radius: 10vh;
+}
+
+.buyButton:hover{
+    background-color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.back{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+
+
+
+   

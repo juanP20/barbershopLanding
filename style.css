@@ -60,9 +60,16 @@ nav{
     border-bottom: solid var(--colorText) 0.1vh;
 }
 
+.homeIcon{
+    width: 4vh;
+    height: 4vh;
+    stroke-width: 0.1vh;
+}
+
 .navContent{
     width: 100%;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     border-right: solid var(--colorText) 0.2vh;
 }
