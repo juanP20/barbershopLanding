@@ -17,10 +17,34 @@ h1{
     
 }
 
-img{
-    width: 20%; 
-    height: 20%;
-    margin: 2%;
+.Sham{
+    width: 30%;
+    height: 30%;
+}
+
+.wax{
+    width: 35.9%;
+    height: 40%;
+}
+
+.mino{
+    width: 30%;
+    height: 30%;
+}
+
+.cond{
+    width: 30%;
+    height: 30%;
+}
+
+.crem{
+    width: 30%;
+    height: 30%;
+}
+
+.loti{
+    width: 30%;
+    height: 30%;
 }
  
 .caja-roja{
