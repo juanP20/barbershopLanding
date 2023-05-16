@@ -115,6 +115,23 @@ header::before {
     z-index: -1;
 }
 
+.options{
+    position: absolute;
+    bottom: 5%;
+    right: 2%;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;  
+    gap: 0.6vh;  
+}
+
+.options a{
+    color: var(--buttonColor);
+}
+
 .mainTittle{
     position: relative;
     z-index: 1;

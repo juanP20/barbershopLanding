@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+:root{
+    --colorTextPrimary : white;
+    --colorTextSecondary: rgb(206, 206, 206);
+}
+
+body {
+    opacity: 0;
+    animation: fadeIn ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0.6;}
+    100% {opacity: 1;}
+}
+
+body{
+    height: 100vh;
+    background-image: url(/img/clipper.jpg);
+    background-size: cover;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 60vh;
+    width: 70vh;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10vh;
+    border: solid white 0.3vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.userIcon{
+    height: 10vh;
+    width: 10vh;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 3vh;
+}
+
+.option{
+    border-radius: 10vh;
+    background-color: rgb(153, 153, 153);
+    height: 6vh;
+    width: 60%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.option a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    font-size: 2vh;
+    text-decoration: none;
+    color: rgb(20, 20, 20);
+}
+
+.option:hover{
+    border: solid 0.2vh white;
+    background-color: white;
+    transition: ease 0.5s;
+}
