@@ -1,0 +1,125 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+:root{
+    --colorTextPrimary : white;
+    --colorTextSecondary: rgb(206, 206, 206);
+}
+
+body {
+    opacity: 0;
+    animation: fadeIn ease-in-out 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0.6;}
+    100% {opacity: 1;}
+}
+
+h1{
+    font-size: 6vh;
+    color: white;
+}
+
+h2{
+    font-size: 3vh;
+    color: white;
+}
+
+p{
+    font-size: 5vh;
+    color: white;
+}
+
+
+header{
+    text-align: center;
+}
+
+body{
+    height: 100vh;
+    background-image: url(/img/barberTools.webp);
+    background-size: contain;
+    background-position: center;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 80vh;
+    width: 150vh;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 10vh;
+    border: solid rgb(185, 185, 185) 0.3vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    
+    position: relative;
+}
+
+.backIcon{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 5vh;
+    height: 5vh;
+}
+
+.appointmentsRow{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10vh;
+}
+
+.appointment{
+    display: flex;
+    justify-content: space-around;
+}
+
+.appActions{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action{
+    color: black;
+    background-color: white;
+
+    font-size: 2vh;
+    font-weight: 600;
+    margin: 3vh;
+    height: 5vh;
+    width: 30vh;
+    border-radius: 1vh;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    width: 70%;
+    border-top: solid white 0.2vh;
+}
+
+.action:hover{
+    border: solid white 0.2vh;
+    background-color: transparent;
+    transition: ease-in all 0.2s;
+    color: white;
+}
