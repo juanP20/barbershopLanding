@@ -118,23 +118,21 @@ button:hover{
 }
 
 .register{
-    width: 80%;
-    margin-top: 1vh;
-    position: absolute;
+    width: 100%;
+    margin-top: 3vh;
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.register{
-    display: flex;
-    margin-top: 3vh;
-    justify-content: end;
-
+.homeIcon{
+    height: 3vh;
+    width: 3vh;
+    stroke-width: 0.1vh;
 }
 
 .register a{
-    margin: 0 2vh;
+    margin: 0 0.5vh;
     font-size: 2vh;
     text-decoration: none;
     color: var(--colorTextSecondary);
@@ -143,5 +141,4 @@ button:hover{
 
 .register a:hover{
     text-decoration:underline;
-    color: var(--colorTextSecondary);
 }

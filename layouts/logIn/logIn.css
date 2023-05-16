@@ -120,8 +120,16 @@ button:hover{
 
 .register{
     display: flex;
+    width: 100%;
     margin-top: 10vh;
     justify-content: center;
+    align-items: center;
+}
+
+.homeIcon{
+    height: 3vh;
+    width: 3vh;
+    stroke-width: 0.1vh;
 }
 
 .register a{
