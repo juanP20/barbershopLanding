@@ -1,0 +1,71 @@
+body{
+    background-color: #180E0E;
+    height: 100vh;
+}
+
+h1{
+    color: white;
+    font-size: 300%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.caja-verde{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Sham{
+    width: 30%;
+    height: 30%;
+}
+
+.wax{
+    width: 35.9%;
+    height: 40%;
+}
+
+.mino{
+    width: 30%;
+    height: 30%;
+}
+
+.cond{
+    width: 30%;
+    height: 30%;
+}
+
+.crem{
+    width: 30%;
+    height: 30%;
+}
+
+.loti{
+    width: 30%;
+    height: 30%;
+}
+ 
+.caja-roja{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-amarilla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    background-color: #583E3D;
+   align-items: center;
+   margin: 7%;
+   margin-top: 5%;
+   width: 20%;
+   height: 190%;
+   font-size: 160%;
+    color: white;
+}
