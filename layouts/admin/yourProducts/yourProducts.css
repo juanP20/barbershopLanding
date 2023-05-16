@@ -130,17 +130,12 @@ p{
     justify-content: center;
 }
 
-.productActions a{
-    background-color: white;
-}
 
 .action{
-    background-color: var(--colorText);
-    border: solid var(--colorText) 0;
+    background-color: white;
 
     font-size: 2vh;
     font-weight: 600;
-    color: var(--secondColor);
     margin: 3vh;
     height: 5vh;
     width: 30vh;
