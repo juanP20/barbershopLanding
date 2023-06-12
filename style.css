@@ -68,13 +68,6 @@ nav{
     stroke-width: 0.1vh;
 }
 
-/* .navContent{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-} */
-
 .navLink{
     font-size: 2.1vh;
     letter-spacing: 0.3vh;
@@ -90,6 +83,7 @@ nav{
 /* Comienzo seccion encabezado */
 
 header{
+    width: 100%;
     background-image: url("./img/banner.jpg") ;
     background-position: center;
     background-size: cover;
@@ -498,6 +492,70 @@ header::before {
 }
 
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
+    html{
+        width: 100%;
+    }
 
+    h1 {
+      font-size: 6vh;
+    }
+  
+    h2 {
+      font-size: 3vh;
+      padding: 4vh;
+      text-align: center;
+    }
+  
+    h3,
+    p {
+      font-size: 2vh;
+    }
+  
+    nav {
+        padding: 2vh 0;
+        position: static;
+        height: 41vh;
+        flex-direction: column;
+    }
+  
+    .homeIcon {
+      width: 3vh;
+      height: 3vh;
+    }
+
+    header{
+        height: 80vh;
+    }
+
+    .SERVICES{
+        height: 100%;
+    }
+
+    .servicesGallery{
+        flex-direction: column;
+    }
+
+    .CLIENTS{
+        height: 100%;
+    }
+
+    .clientsGallery{
+        flex-direction: column;
+    }
+
+    .clientImg{
+        width: 39vh;
+        height: 39vh;
+        margin: 3vh 0;
+    }
+
+    .arrowIcon{
+        width: 0;
+        height: 0;
+    }
+    
+    .BARBERS{
+        height: 100%;
+    }
 }
