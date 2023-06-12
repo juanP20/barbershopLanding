@@ -144,3 +144,33 @@ button:hover{
     text-decoration:underline;
     color: var(--colorTextSecondary);
 }
+@media (max-width:480px) {
+    .formContainer{
+        width:98%;
+    }
+    label{
+        padding: 3vh;
+    }   
+    .pc{
+        display: none;
+    }
+
+}
+@media(max-width:800px){
+    .formContainer{
+        width: 80%;
+    }
+}
+@media (min-width:480px) and (max-width:1200px){
+    .formContainer{
+        width: 80%;
+    }
+    .cellPhone{
+        display: none;
+    }
+}
+@media (min-width:1200px){
+    .cellPhone{
+        display: none;
+    }
+}
