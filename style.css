@@ -536,12 +536,31 @@ header::before {
         flex-direction: column;
     }
 
+    .serviceImg{
+        width: 30vh;
+    }
+
+
+    .PRODUCTS{
+        height: 100%;
+    }
+
+    .container{
+        height: 26vh;
+    }
+
+    .box{
+        height: 20vh;
+    }
+
     .CLIENTS{
         height: 100%;
     }
 
     .clientsGallery{
+        width: 100%;
         flex-direction: column;
+        align-items: center;
     }
 
     .clientImg{
