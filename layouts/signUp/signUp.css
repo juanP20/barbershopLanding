@@ -142,3 +142,24 @@ button:hover{
 .register a:hover{
     text-decoration:underline;
 }
+
+@media (max-width:480px){
+    .formContainer{
+        width: 95%;
+    }
+    h2{
+        font-size: 12px;
+    }
+    label{
+        padding: 3vh;
+        width: 98%;
+    }
+}
+@media (max-width:800px) {
+    .formContainer{
+        width:90%;
+    }
+}
+@media (wi) {
+    
+}
