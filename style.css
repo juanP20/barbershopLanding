@@ -558,4 +558,44 @@ header::before {
     .BARBERS{
         height: 100%;
     }
+
+    .barbersContainer{
+        flex-direction: column;
+    }
+    
+    .barberDescription{
+        padding: 0 10vh;
+    }
+
+    .barberName{
+        border-top: solid white 0.2vh;
+        width: 80%;
+        text-align: center;
+        padding-top: 2vh;
+    }
+
+    .CONTACT{
+        height: 100%;
+    }
+
+    .contactContent{
+        flex-direction: column;
+    }
+
+    .map{
+        height: 40vh;
+        width: 40vh;
+    }
+
+    .dataDescription{
+        font-size: 2vh;
+    }
+
+    .contactData{
+    }
+
+    .dataLogo{
+        width: 4vh;
+        margin: 0 2vh;
+    }
 }
