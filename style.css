@@ -615,3 +615,130 @@ header::before {
         margin: 0 2vh;
     }
 }
+
+@media (max-width: 800px) {
+    html{
+        width: 100%;
+    }
+
+    h1 {
+      font-size: 8vh;
+    }
+  
+    h2 {
+      font-size: 4vh;
+      padding: 4vh;
+      text-align: center;
+    }
+  
+    h3,
+    p {
+      font-size: 2vh;
+    }
+  
+    nav {
+        padding: 2vh 0;
+        position: static;
+        height: 41vh;
+        flex-direction: column;
+    }
+  
+    .homeIcon {
+      width: 3vh;
+      height: 3vh;
+    }
+
+    header{
+        height: 80vh;
+    }
+
+    .SERVICES{
+        height: 100%;
+    }
+
+    .serviceImg{
+        width: 20vh;
+    }
+
+
+    .PRODUCTS{
+        height: 100%;
+    }
+
+    .container{
+        height: 30vh;
+    }
+
+    .box{
+        height: 25vh;
+    }
+
+    .CLIENTS{
+        height: 100%;
+    }
+
+    .clientsGallery{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clientImg{
+        width: 39vh;
+        height: 39vh;
+        margin: 3vh 0;
+    }
+
+    .arrowIcon{
+        width: 0;
+        height: 0;
+    }
+    
+    .BARBERS{
+        height: 100%;
+    }
+
+    .barbersContainer{
+        flex-direction: column;
+    }
+    
+    .barberName{
+        border-top: solid white 0.2vh;
+        width: 80%;
+        text-align: center;
+        padding-top: 2vh;
+        font-size: 3vh;
+    }
+    
+    .barberImg{
+        height: 30vh;
+        width: 30vh;
+    }
+    
+    .barberDescription{
+        padding: 0 20vh;
+        font-size: 2.5vh;
+    }
+
+    .CONTACT{
+        height: 100%;
+        padding-bottom: 6vh;
+    }
+
+
+    .map{
+        height: 40vh;
+        width: 40vh;
+    }
+
+    .dataDescription{
+        font-size: 2vh;
+    }
+    
+    .dataLogo{
+        width: 4vh;
+        margin: 0 2vh;
+    }
+
+
+}
