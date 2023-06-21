@@ -547,11 +547,9 @@ header::before {
     }
 
     .container{
-        height: 26vh;
-    }
-
-    .box{
-        height: 20vh;
+        height: 80vh;
+        flex-direction: column;
+        max-width: 40vh;
     }
 
     .CLIENTS{
@@ -586,10 +584,6 @@ header::before {
     .barberDescription{
         width: 100%;
         padding: 0;
-    }
-
-    .barberImg{
-        
     }
 
     .barberName{
@@ -669,14 +663,6 @@ header::before {
 
     .PRODUCTS{
         height: 100%;
-    }
-
-    .container{
-        height: 30vh;
-    }
-
-    .box{
-        height: 25vh;
     }
 
     .CLIENTS{
