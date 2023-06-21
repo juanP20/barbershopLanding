@@ -124,6 +124,26 @@ body{
     color: white;
 }
 
+@media (max-width: 800px) {
+    h1{
+        font-size: 200%;
+    }
+    
+    h2{
+        font-size: 2vh;
+        color: white;
+    }
+    
+    p{
+        font-size: 3vh;
+        color: white;
+    }
+
+    .container{
+        width: 90%;
+    }
+}
+
 @media (max-width: 480px) {
     body{
         height: 200vh
@@ -144,25 +164,5 @@ body{
 
     .line{
         border: 0;
-    }
-}
-
-@media (max-width: 800px) {
-    h1{
-        font-size: 200%;
-    }
-    
-    h2{
-        font-size: 2vh;
-        color: white;
-    }
-    
-    p{
-        font-size: 3vh;
-        color: white;
-    }
-
-    .container{
-        width: 90%;
     }
 }
