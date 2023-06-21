@@ -398,7 +398,7 @@ header::before {
 
 .barberDescription{
     font-size: 2.5vh;
-    margin: 2vh auto;
+    margin: 2vh 0;
     color: gb(216, 216, 216);
     text-align: center;
 }
@@ -723,8 +723,8 @@ header::before {
     }
     
     .barberDescription{
-        padding: 0 20vh;
         font-size: 2.5vh;
+        width: 80%;
     }
 
     .CONTACT{
