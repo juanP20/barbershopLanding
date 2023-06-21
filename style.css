@@ -537,10 +537,6 @@ header::before {
         flex-direction: column;
     }
 
-    .serviceImg{
-        width: 30vh;
-    }
-
 
     .PRODUCTS{
         height: 100%;
@@ -657,7 +653,7 @@ header::before {
     }
 
     .serviceImg{
-        width: 20vh;
+        width: 30vh;
     }
 
 
