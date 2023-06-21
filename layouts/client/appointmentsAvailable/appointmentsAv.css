@@ -143,3 +143,26 @@ body{
         width: 90%;
     }
 }
+
+@media (max-width: 480px) {
+    body{
+        height: 200vh
+    }
+
+    p{
+        font-size: 4vh;
+        border-bottom: 0.2vh solid white;
+        padding-bottom: 3vh;
+    }
+    .appointmentsRow{
+        flex-wrap: wrap;
+    }
+
+    .container{
+        height: 95%;
+    }
+
+    .line{
+        border: 0;
+    }
+}
