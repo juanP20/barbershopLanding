@@ -144,7 +144,7 @@ button:hover{
     text-decoration:underline;
     color: var(--colorTextSecondary);
 }
-@media (max-width:480px) {
+@media (max-width:550px) {
     .formContainer{
         width:98%;
     }
@@ -156,12 +156,8 @@ button:hover{
     }
 
 }
-@media(max-width:800px){
-    .formContainer{
-        width: 80%;
-    }
-}
-@media (min-width:480px) and (max-width:1200px){
+
+@media (min-width:550px) and (max-width:1200px){
     .formContainer{
         width: 80%;
     }

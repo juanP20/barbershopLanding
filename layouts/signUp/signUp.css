@@ -143,23 +143,20 @@ button:hover{
     text-decoration:underline;
 }
 
-@media (max-width:480px){
+@media (max-width:550px){
     .formContainer{
         width: 95%;
     }
     h2{
-        font-size: 12px;
+        font-size: 3vh;
     }
     label{
-        padding: 3vh;
+        padding: 2vh;
         width: 98%;
     }
 }
-@media (max-width:800px) {
+@media (max-width:950px) {
     .formContainer{
         width:90%;
     }
-}
-@media (wi) {
-    
 }

@@ -32,7 +32,6 @@ p{
 }
 
 .BARBERS{
-    height:100vh;
     background-image: url("/img/banner.jpg") ;
     background-position: center;
     background-size: cover;
@@ -138,7 +137,7 @@ p{
     color: white;
 }
 
-@media (max-width:800px){
+@media (max-width:950px){
     .barbersContainer{
         display: block;
     }
@@ -164,7 +163,4 @@ p{
     .action{
         margin: 2vh;
     }
-}
-@media(max-width:800px){
-
 }
