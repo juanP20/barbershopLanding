@@ -49,7 +49,7 @@ p{
 
 /* Comienzo sección barra de navegación */
 
-nav{
+nav  {
     width: 100%;
     background-color: var(--secondColor) ;
     border-bottom: solid var(--colorText) 0.1vh;
@@ -57,9 +57,12 @@ nav{
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content:space-between ;
     position: fixed;
-    z-index: 2;
+    z-index: 1;
+}
+.tablet{
+    display: none;
 }
 
 .homeIcon{
@@ -70,9 +73,11 @@ nav{
 
 .navLink{
     font-size: 2.1vh;
+    padding: 3vh;
     letter-spacing: 0.3vh;
     text-decoration: none;
     color: var(--colorText);
+    
 }
 
 .navLink:hover{
@@ -126,6 +131,9 @@ header::before {
 .options a{
     color: var(--buttonColor);
     font-size: 1.7vh;
+}
+main{
+    width: auto;
 }
 
 .mainTittle{
@@ -189,7 +197,6 @@ header::before {
     position: relative;
 
     width: 100%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -208,8 +215,7 @@ header::before {
 }
 
 .container{
-    width: 100%;
-    height: 35vh;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -221,7 +227,7 @@ header::before {
     width: 100%;
     height: 30vh;
     position: relative;
-    overflow: hidden;
+    overflow: scroll;
     margin: 2vh;
     border-radius: 1vh;
     box-shadow: 0vh 1.5vh 1vh;
@@ -492,242 +498,87 @@ header::before {
     font-weight: bold;
 }
 
-
-@media (max-width: 480px) {
-    html{
-        width: 100%;
-    }
-
-    h1 {
-      font-size: 6vh;
-    }
-  
-    h2 {
-      font-size: 3vh;
-      padding: 4vh;
-      text-align: center;
-    }
-  
-    h3,
-    p {
-      font-size: 2vh;
-    }
-  
-    nav {
-        padding: 2vh 0;
-        position: static;
-        height: 41vh;
+@media (max-width:950px) {
+    nav{
+        height: auto;
+        display: flex;
         flex-direction: column;
-    }
-  
-    .homeIcon {
-      width: 3vh;
-      height: 3vh;
-    }
-
-    header{
-        height: 80vh;
-    }
-
-    .SERVICES{
-        height: 100%;
-    }
-
-    .servicesGallery{
-        flex-direction: column;
-    }
-
-
-    .PRODUCTS{
-        height: 100%;
-    }
-
-    .container{
-        height: 80vh;
-        flex-direction: column;
-        max-width: 40vh;
-    }
-
-    .CLIENTS{
-        height: 100%;
-    }
-
-    .clientsGallery{
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .clientImg{
-        width: 39vh;
-        height: 39vh;
-        margin: 3vh 0;
-    }
-
-    .arrowIcon{
-        width: 0;
-        height: 0;
-    }
-    
-    .BARBERS{
-        height: 100%;
-    }
-
-    .barbersContainer{
-        flex-direction: column;
-    }
-    
-    .barberDescription{
-        width: 100%;
-        padding: 0;
-    }
-
-    .barberName{
-        border-top: solid white 0.2vh;
-        width: 80%;
-        text-align: center;
-        padding-top: 2vh;
-    }
-
-    .CONTACT{
-        height: 100%;
-    }
-
-    .contactContent{
-        flex-direction: column;
-    }
-
-    .map{
-        height: 40vh;
-        width: 40vh;
-    }
-
-    .dataDescription{
         font-size: 2vh;
     }
-    
-    .dataLogo{
-        width: 4vh;
-        margin: 0 2vh;
+    .navLink{
+        font-size: 1.6vh;
+        padding: 0.2vh;
+        border-bottom: 1px solid grey;
     }
-}
-
-@media (max-width: 800px) {
-    html{
-        width: 100%;
+    h2{
+        font-size: 2.6vh;
     }
-
-    h1 {
-      font-size: 8vh;
-    }
-  
-    h2 {
-      font-size: 4vh;
-      padding: 4vh;
-      text-align: center;
-    }
-  
-    h3,
-    p {
-      font-size: 2vh;
-    }
-  
-    nav {
-        padding: 2vh 0;
-        position: static;
-        height: 41vh;
-        flex-direction: column;
-    }
-  
-    .homeIcon {
-      width: 3vh;
-      height: 3vh;
-    }
-
-    header{
-        height: 80vh;
-    }
-
-    .SERVICES{
-        height: 100%;
-    }
-
     .serviceImg{
         width: 30vh;
     }
-
-
-    .PRODUCTS{
-        height: 100%;
+    .SERVICES{
+        height: auto;
     }
-
-    .CLIENTS{
-        height: 100%;
-    }
-
-    .clientsGallery{
-        width: 100%;
-        /* flex-direction: column; */
+    .servicesGallery{
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        flex-wrap: wrap;
     }
-
-    .clientImg{
-        width: 30vh;
-        height: 30vh;
-        margin: 3vh 0;
-    }
-
-    .arrowIcon{
-        width: 0;
-        height: 0;
-    }
-    
-    .BARBERS{
-        height: 100%;
-    }
-
-    .barbersContainer{
+    .contactContent{
+        display: flex;
         flex-direction: column;
     }
-    
-    .barberName{
-        border-top: solid white 0.2vh;
-        width: 80%;
-        text-align: center;
-        padding-top: 2vh;
-        font-size: 3vh;
+    .barbersContainer{
+        display: flex;
+        flex-direction: column;
     }
-    
-    .barberImg{
-        height: 30vh;
-        width: 30vh;
+    .BARBERS{
+        height: auto;
     }
-    
-    .barberDescription{
-        font-size: 2.5vh;
-        width: 80%;
-    }
-
     .CONTACT{
-        height: 100%;
-        padding-bottom: 6vh;
+        height: auto;
     }
-
-
+    .barberDescription{
+        padding: 3vh    ;
+    }
+    .homeIcon{
+        display: none;
+    }
+    .container{
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        width: 40vh;
+        height: 100vh;
+    }
+    .box{
+        height: auto;
+    }
+}
+@media (max-width:550px){
+    nav{
+        z-index: 4;
+    }
+    .PRODUCTS{
+        height: auto;
+    }
+    h1{
+        font-size: 4vh;
+    }
+    h2{
+        text-align: center  ;
+        font-size: 2vh;
+    }
+    h3{
+        font-size: 2vh;
+    }
     .map{
-        height: 40vh;
         width: 40vh;
     }
-
     .dataDescription{
         font-size: 2vh;
     }
-    
-    .dataLogo{
-        width: 4vh;
-        margin: 0 2vh;
+    .box{
+        height: 40vh;
     }
-
-
 }
