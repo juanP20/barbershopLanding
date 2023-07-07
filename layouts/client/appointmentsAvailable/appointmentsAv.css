@@ -98,6 +98,7 @@ body{
 .action{
     color: black;
     background-color: white;
+    cursor: pointer;
 
     font-size: 2vh;
     font-weight: 600;
