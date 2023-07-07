@@ -139,6 +139,10 @@ p{
 }
 
 @media (max-width:950px){
+    .BARBERS{
+        height: 100%;
+    }
+
     .barbersContainer{
         display: block;
     }
