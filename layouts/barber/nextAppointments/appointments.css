@@ -43,7 +43,7 @@ header{
 body{
     height: 100vh;
     background-image: url(/img/barberTools.webp);
-    background-size: contain;
+    background-size: cover;
     background-position: center;
 
     position: relative;
@@ -123,4 +123,46 @@ body{
     background-color: transparent;
     transition: ease-in all 0.2s;
     color: white;
+}
+
+@media (max-width: 950px) {
+    .backIcon{
+        top: 1%;
+        left: 45%;
+    }
+
+    body{
+        height: 100%;
+    }
+
+    h1{
+        padding: 2vh;
+        font-size: 200%;
+    }
+    
+    h2{
+        font-size: 2vh;
+        color: white;
+    }
+    
+    p{
+        font-size: 4vh;
+        border-bottom: 0.2vh solid white;
+        padding-bottom: 3vh;
+    }
+    .appointmentsRow{
+        flex-wrap: wrap;
+    }
+
+    .container{
+        height: 100%;
+    }
+
+    .line{
+        border: 0;
+    }
+
+    .container{
+        width: 90%;
+    }
 }

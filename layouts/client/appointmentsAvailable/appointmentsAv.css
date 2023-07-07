@@ -166,11 +166,3 @@ body{
         width: 90%;
     }
 }
-
-@media (max-width: 550px) {
-    body{
-        height: 200vh
-    }
-
-
-}
