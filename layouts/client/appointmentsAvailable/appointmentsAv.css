@@ -126,7 +126,17 @@ body{
 }
 
 @media (max-width: 950px) {
+    .backIcon{
+        top: 1%;
+        left: 45%;
+    }
+
+    body{
+        height: 100%;
+    }
+
     h1{
+        padding: 2vh;
         font-size: 200%;
     }
     
@@ -136,8 +146,20 @@ body{
     }
     
     p{
-        font-size: 3vh;
-        color: white;
+        font-size: 4vh;
+        border-bottom: 0.2vh solid white;
+        padding-bottom: 3vh;
+    }
+    .appointmentsRow{
+        flex-wrap: wrap;
+    }
+
+    .container{
+        height: 100%;
+    }
+
+    .line{
+        border: 0;
     }
 
     .container{
@@ -150,20 +172,5 @@ body{
         height: 200vh
     }
 
-    p{
-        font-size: 4vh;
-        border-bottom: 0.2vh solid white;
-        padding-bottom: 3vh;
-    }
-    .appointmentsRow{
-        flex-wrap: wrap;
-    }
 
-    .container{
-        height: 95%;
-    }
-
-    .line{
-        border: 0;
-    }
 }
