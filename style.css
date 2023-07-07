@@ -275,6 +275,7 @@ main{
 .cartLink{
     background-color: var(--colorText);
     border: solid var(--colorText) 0;
+    cursor: pointer;
 
     font-size: 2vh;
     font-weight: 600;
